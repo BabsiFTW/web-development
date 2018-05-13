@@ -2,19 +2,26 @@
 ## Home
 Filename: <i>index.html</i><br>
 <li>Navigation Bar</li>
-<li>Jumbotron mit Button</li>
+<li>Jumbotron with Button</li>
 <li>Two columns (8 md width and 4 md width)</li>
 <li>A picture within the first column</li>
+<li>Jumbotron without button within the second column</li>
+
 ## Galery
 Filename: <i>galery.html</i><br>
-<li></li>
-<li></li>
-<li></li>
+<li>Navigation Bar</li>
+<li>Jumbotron with Button</li>
+<li>Two columns (8 md width and 4 md width)</li>
+<li>A 'carousel' element with control, indicators and captions within the first column</li>
+<li>Jumbotron without button within the second column</li>
+
+
 ## Products
-Filename: <i>products.html</i>
+Filename: <i>products.html</i><br>
 <li></li>
 <li></li>
 <li></li>
+
 ## Imprints
 Filename: <i>not yet implemented</i>
 
