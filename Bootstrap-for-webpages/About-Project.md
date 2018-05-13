@@ -4,17 +4,17 @@ Filename: <i>index.html</i><br>
 <li>Navigation Bar</li>
 <li>Jumbotron mit Button</li>
 <li>Two columns (8 md width and 4 md width)</li>
-<li>A picture within the first column</li><br>
+<li>A picture within the first column</li>
 ## Galery
 Filename: <i>galery.html</i><br>
 <li></li>
 <li></li>
-<li></li><br>
+<li></li>
 ## Products
 Filename: <i>products.html</i>
 <li></li>
 <li></li>
-<li></li><br>
+<li></li>
 ## Imprints
 Filename: <i>not yet implemented</i>
 
