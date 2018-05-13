@@ -1,0 +1,121 @@
+<!doctype html>
+<!-- -->
+<html lang="de">
+<!--Language for text within code-->
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <!-- Standard -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- enables responsive Webdesign; shrink-to-fit=no to handle special  bugs within tablet usage-->
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <!-- reference to the used Bootstrap Version-->
+  <link rel="stylesheet" href="style.css" <!-- in the wake of DSGVO: file should be stored locally-->
+  <title>Hello, world!</title>
+</head>
+
+<body>
+
+  <!--Creating a container -->
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <!-- adept Navigation Layout, reference to "style.css" -->
+      <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="logo">
+        </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- view of three bars on mobile devices, data-target has to be same as the div in which the navigation is implemented-->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <!-- alignment on the right, "margin-left: auto class" -->
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="galery.html">Galery<span class="sr-only">(current)</span></a>
+            <!-- class "sr-only" enables website to emphasize on current page, Home is shown bold in contrast to remaining navigation points-->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#impressum.html">Imprint</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <h1 class="display-4">Data Science is fun!</h1>
+      <p class="lead">This project represents my knowledge of HTML, CSS and the Bootstrap framework.</p>
+      <hr class="my-4">
+      <!--<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>-->
+      <a class="btn btn-primary btn-lg" href="#" role="button">This button is useless!</a>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <!-- enter here galery-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="https://picsum.photos/500/?random" alt="First slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>I am a random picture and going to change every session!</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="https://picsum.photos/500/" alt="Second slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>I am random too but will always appear!</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="https://picsum.photos/g/500/" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>I will always appear too but will be grayscale!</h5>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="jumbotron">
+          <h1 class="display-4">Servus!</h1>
+          <p class="lead">Hier gehts mim text weiter.</p>
+          <!--<hr class="my-4">
+          <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>-->
+        </div>
+        <p>Midanand nia need sammawiedaguad boarischer: Hawadere midananda hob i an Suri do Kirwa Wiesn i spernzaln Greichats, is. Glei wiavui dahoam, a amoi obandeln. Is ma Wuascht sauba gscheid i mog di fei. Spernzaln Sepp und sei, Landla glacht. Oamoi
+          amoi i hob di narrisch gean Milli Musi sowos so schee Gstanzl Foidweg. Freibia sog i ma Biazelt vui. Auffisteign gwihss Engelgwand pfundig hawadere midananda Oachkatzlschwoaf Almrausch liberalitas Bavariae sammawiedaguad hoggd! Des Kuaschwanz
+          ognudelt, singd aba Spuiratz nia. Wia anbandeln noch da Giasinga Heiwog, hob i an Suri. I waar soweid owe a so a Schmarn Bradwurschtsemmal. Ohrwaschl Namidog Jodler gwiss Biawambn. Almrausch Breihaus Spezi Vergeltsgott Edlweiss is griasd eich
+          midnand Oachkatzlschwoaf</p>
+      </div>
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  <!-- in the wake of DSGVO: files should be stored locally-->
+</body>
+
+</html>
