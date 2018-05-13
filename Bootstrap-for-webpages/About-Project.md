@@ -1,6 +1,7 @@
 # Structure of the project
 <br>
-## Home:
+## Home
+<br>
 Filename: <i>index.html</i><br>
 <li>Navigation Bar</li>
 <li>Jumbotron mit Button</li>
