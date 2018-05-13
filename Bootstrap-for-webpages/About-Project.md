@@ -1,4 +1,4 @@
-#Structure of the project
+# Structure of the project
 <br>
 'Home': <i>index.html</i>
 <li>Navigation Bar</li>
@@ -8,14 +8,14 @@
 'Galery': <i>galery.html</i>
 <li></li>
 <li></li>
-<li></li>
+<li></li><br>
 'Products':<i>products.html</i>
 <li></li>
 <li></li>
-<li></li>
+<li></li><br>
 'Imprints': <i>not yet implemented</i>
 
-#How to run the project locally
+# How to run the project locally
 <br>
 1. Download all files within the folder<br>
 2. Make sure that the directory stays the same<br>
