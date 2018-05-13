@@ -1,3 +1,5 @@
+# About the project
+
 # Structure of the project
 ## Home
 Filename: <i>index.html</i><br>
@@ -18,9 +20,11 @@ Filename: <i>galery.html</i><br>
 
 ## Products
 Filename: <i>products.html</i><br>
-<li></li>
-<li></li>
-<li></li>
+<li>Navigation Bar</li>
+<li>Jumbotron with Button</li>
+<li>Two columns (8 md width and 4 md width)</li>
+<li>Several variations of the 'card deck' element within the first column</li>
+<li>Jumbotron without button within the second column</li>
 
 ## Imprints
 Filename: <i>not yet implemented</i>
