@@ -1,6 +1,7 @@
 # Structure of the project
 <br>
-## Home: <i>index.html</i>
+## Home:
+Filename: <i>index.html</i><br>
 <li>Navigation Bar</li>
 <li>Jumbotron mit Button</li>
 <li>Two columns (8 md width and 4 md width)</li>
