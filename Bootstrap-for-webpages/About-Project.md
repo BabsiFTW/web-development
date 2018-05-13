@@ -1,19 +1,19 @@
 # Structure of the project
 <br>
-## 'Home': <i>index.html</i>
+## Home: <i>index.html</i>
 <li>Navigation Bar</li>
 <li>Jumbotron mit Button</li>
 <li>Two columns (8 md width and 4 md width)</li>
 <li>A picture within the first column</li><br>
-## 'Galery': <i>galery.html</i>
+## Galery: <i>galery.html</i>
 <li></li>
 <li></li>
 <li></li><br>
-## 'Products':<i>products.html</i>
+## Products:<i>products.html</i>
 <li></li>
 <li></li>
 <li></li><br>
-## 'Imprints': <i>not yet implemented</i>
+## Imprints: <i>not yet implemented</i>
 
 # How to run the project locally
 <br>
